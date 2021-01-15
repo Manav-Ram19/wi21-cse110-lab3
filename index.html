@@ -139,10 +139,19 @@
         <section>
         <h2> Tell me who you are </h2>
         <form>
+        <fieldset>
           <label for="fname"> First Name: </label><br>
           <input type="text" id="fname" name="fname" value="first"><br>
           <label for="lname"> Last Name: </label><br>
           <input type="text" id="lname" name="lname" value="last"><br>
+          <label for="date">Today's Date:</label><br>
+          <input type="date" id="date" name="date" min="2021-01-01"><br>
+          <label for="ucsd email">Enter your UCSD email:</label><br>
+          <input type="email" id="ucsd email" name="ucsd email" value="@ucsd.edu"><br>
+          <label for="phone">Enter your phone number, in the format (XXX-XXX-XXXX):</label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+          <input type="submit" value="Submit">
+          </fieldset>
           <input type="radio" id="LinkedIn" name="Contact" value="LinkedIn">
           <label for="LinkedIn"> LinkedIn </label><br>
           <input type="radio" id="Mutual Friend" name="Contact" value="Mutual Friend">
@@ -165,12 +174,29 @@
           <input type="button" onclick="alert('We can get through the pandemic together, Keep your hopes up!'')" value="Click Me!"><br>
           <label for="pcolor">What is the exact shade of red on a Pokeball?</label><br>
           <input type="color" id="pcolor" name="pcolor"><br>
-          <label for="date">Today's Date:</label><br>
-          <input type="date" id="date" name="date" min="2021-01-01"><br>
-          <label for="ucsd email">Enter your UCSD email:</label><br>
-          <input type="email" id="ucsd email" name="ucsd email" value="@ucsd.edu"><br>
-          <label for="phone">Enter your phone number, in the format (XXX-XXX-XXXX):</label>
-          <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+          <label for="Vac">What would you have done, if it weren't for the pandemic:</label>
+          <select name="Vac" id="Vac">
+            <optgroup label="Large Vacation">
+              <option value="beach">Beach</option>
+              <option value="mountains">Mountains</option>
+              <option value="city">Foreign City</option>
+             </optgroup>
+            <optgroup label="Go Outside">
+              <option value="Mall">Visit the Mall</option>
+              <option value="Restaurant">Visit a Restaurant</option>
+              <option value="Friends">Meet Friends</option>
+              <option value="Phys">Gym/Sports</option>
+            </optgroup>
+            <optgroup label="Stay Inside">
+              <option value="Video Games">Play Video Games</option>
+              <option value="Board Games">Play Board Games</option>
+              <option value="Movies">Binge watch Netflix</option>
+              <option value="Sleep">Sleep</option>
+            </optgroup>
+          </select>
+          <label for="Other Intro">Anything Else you would like to Add:</label><br>
+          <textarea id="Other Intro" name="Other Intro" rows="4" cols="50"></textarea>
+          <br><br>
           <input type="submit" value="Submit">
           <input type="reset"><br>
     </main>
