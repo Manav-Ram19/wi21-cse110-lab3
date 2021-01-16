@@ -55,6 +55,7 @@
             <td> Advanced Data Structures </td>
           </tr>
         </table>
+        </section>
         <section>
             <h2> Why Genetic Algorithms are Fun </h2>
             <header> 
@@ -130,10 +131,10 @@
             <source src="Breath of the Wild (Main Theme) - The Legend of Zelda Breath of the Wild Soundtrack.mp3" type="audio/mpeg">
           </audio>
           <h3> A Canvas and an SVG: </h3>
-          <canvas id="temp" width="50" height="50" style="border:1px solid #0000FF";></canvas>
+          <canvas id="temp" width="50" height="50"> </canvas>
           <br>
           <svg width="200" height="200">
-            <circle cx="100" cy="50" r="40" stroke="red" stroke-width="5">
+            <circle cx="100" cy="50" r="40" stroke="red" stroke-width="5"> </circle>
           </svg>
           <br>
           <h3> A Secret Button </h3>
@@ -143,7 +144,6 @@
             <p> This message is hidden, you probably will never see it </p>
           </template>
         </div>
-        <section>
         <h2> Tell me who you are </h2>
         <form>
         <fieldset>
@@ -154,8 +154,8 @@
           <input type="text" id="lname" name="lname" value="last"><br>
           <label for="date">Today's Date:</label><br>
           <input type="date" id="date" name="date" min="2021-01-01"><br>
-          <label for="ucsd email">Enter your UCSD email:</label><br>
-          <input type="email" id="ucsd email" name="ucsd email" value="@ucsd.edu"><br>
+          <label for="ucsd_email">Enter your UCSD email:</label><br>
+          <input type="email" id="ucsd_email" name="ucsd_email" value="@ucsd.edu"><br>
           <label for="phone">Enter your phone number, in the format (XXX-XXX-XXXX):</label>
           <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
           </fieldset>
@@ -164,10 +164,10 @@
           <input type="radio" id="LinkedIn" name="Contact" value="LinkedIn">
           <label for="LinkedIn"> LinkedIn </label><br>
           <input type="radio" id="Mutual Friend" name="Contact" value="Mutual Friend">
-          <label for="Mutual Friend"> Mutual Friend </label><br>
+          <label for="Mutual_Friend"> Mutual Friend </label><br>
           <input type="radio" id="Other" name="Contact" value="Other">
           <label for="Other"> Other </label><br>
-          <label for="Common Interests"> Common Interests with Me: </label><br>
+          <label for="Common_Interests"> Common Interests with Me: </label><br>
           <input type="checkbox" id="Soccer" name="Soccer" value="Soccer">
           <label for="Soccer">Soccer</label><br>
           <input type="checkbox" id="Chelsea" name="Chelsea" value="Chelsea">
@@ -176,8 +176,8 @@
           <label for="UCSD">UCSD</label><br>
           <input type="checkbox" id="Codeathons" name="Codeathons" value="Codeathons">
           <label for="Codeathons">Codeathons</label><br>
-          <input type="checkbox" id="Hiking/Trekking" name="Hiking/Trekking" value="Hiking/Trekking">
-          <label for="Hiking/Trekking">Hiking/Trekking</label><br>
+          <input type="checkbox" id="Hiking_Trekking" name="Hiking_Trekking" value="Hiking_Trekking">
+          <label for="Hiking_Trekking">Hiking/Trekking</label><br>
           <input type="checkbox" id="Pokemon" name="Pokemon" value="Pokemon">
           <label for="Pokemon">Pokemon</label><br>
           <input type="button" onclick="alert('We can get through the pandemic together, Keep your hopes up!')" value="Click Me!"><br>
@@ -197,8 +197,8 @@
               <option value="Phys">Gym/Sports</option>
             </optgroup>
             <optgroup label="Stay Inside">
-              <option value="Video Games">Play Video Games</option>
-              <option value="Board Games">Play Board Games</option>
+              <option value="Video_Games">Play Video Games</option>
+              <option value="Board_Games">Play Board Games</option>
               <option value="Movies">Binge watch Netflix</option>
               <option value="Sleep">Sleep</option>
             </optgroup>
@@ -216,11 +216,12 @@
             <option value="Other"></option>
           </datalist>
           <br>
-          <label for="Other Intro">Anything Else you would like to Add:</label><br>
-          <textarea id="Other Intro" name="Other Intro" rows="4" cols="50"></textarea>
+          <label for="Other_Intro">Anything Else you would like to Add:</label><br>
+          <textarea id="Other_Intro" name="Other_Intro" rows="4" cols="50"></textarea>
           <br><br>
           <input type="submit" value="Submit">
           <input type="reset"><br>
+        </form>
     </main>
   </body>
 </html>      
