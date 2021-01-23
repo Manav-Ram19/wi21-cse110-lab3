@@ -15,6 +15,7 @@
       right: 0;
       width: 300px;
       background-color: #acf871;
+      color: black;
     }
   </style>
   </head>
@@ -24,7 +25,7 @@
         For Code visit https://github.com/Manav-Ram19/wi21-cse110-lab3.
     </div>
     <nav>
-      <a href="https://www.linkedin.com/in/manav-ram-740a32194/" target = "_test">LinkedIn</a> | <a href="https://github.com/Manav-Ram19">GitHub</a>
+      <a href="https://www.linkedin.com/in/manav-ram-740a32194/">LinkedIn</a> | <a href="https://github.com/Manav-Ram19">GitHub</a>
     </nav>
     <picture>
       <img src="https://warren.ucsd.edu/_images/homepage-v5/homepage-images/ebu1-fallen-star.png" alt="Warren, UCSD" width="400" height="150" id="solid">
@@ -185,15 +186,15 @@
         <fieldset>
           <legend>Personal Information</legend>
           <label for="fname"> First Name: </label><br>
-          <input type="text" id="fname" name="fname" value="first"><br>
+          <input type="text" id="fname" name="fname" value="first" style="color: black;"><br>
           <label for="lname"> Last Name: </label><br>
-          <input type="text" id="lname" name="lname" value="last"><br>
+          <input type="text" id="lname" name="lname" value="last" style="color: black;"><br>
           <label for="date">Today's Date:</label><br>
-          <input type="date" id="date" name="date" min="2021-01-01"><br>
+          <input type="date" id="date" name="date" min="2021-01-01" style="color: black;"><br>
           <label for="ucsd_email">Enter your UCSD email:</label><br>
-          <input type="email" id="ucsd_email" name="ucsd_email" value="@ucsd.edu"><br>
+          <input type="email" id="ucsd_email" name="ucsd_email" value="@ucsd.edu" style="color: black;"><br>
           <label for="phone">Enter your phone number, in the format (XXX-XXX-XXXX):</label>
-          <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" style="color: black;"><br>
           </fieldset>
           <br>
           <p>How did you find out about me:</p>
@@ -207,7 +208,7 @@
           <input type="checkbox" id="Soccer" name="Soccer" value="Soccer">
           <label for="Soccer">Soccer</label><br>
           <input type="checkbox" id="Chelsea" name="Chelsea" value="Chelsea">
-          <label for="Chelsea">Chelsea</label><br>
+          <label for="Chelsea" target = "_test">Chelsea</label><br>
           <input type="checkbox" id="UCSD" name="UCSD" value="UCSD">
           <label for="UCSD">UCSD</label><br>
           <input type="checkbox" id="Codeathons" name="Codeathons" value="Codeathons">
@@ -216,11 +217,11 @@
           <label for="Hiking_Trekking">Hiking/Trekking</label><br>
           <input type="checkbox" id="Pokemon" name="Pokemon" value="Pokemon">
           <label for="Pokemon">Pokemon</label><br>
-          <input type="button" onclick="alert('We can get through the pandemic together, Keep your hopes up!')" value="Click Me!"><br>
+          <input type="button" onclick="alert('We can get through the pandemic together, Keep your hopes up!')" value="Click Me!" style="color: black;"><br>
           <label for="pcolor">What is the exact shade of red on a Pokeball?</label><br>
           <input type="color" id="pcolor" name="pcolor"><br>
           <label for="Vac">What would you have done, if it weren't for the pandemic:</label>
-          <select name="Vac" id="Vac">
+          <select name="Vac" id="Vac" style="color: black;">
             <optgroup label="Large Vacation">
               <option value="beach">Travel to a Beach</option>
               <option value="mountains">Travel to a Mountain</option>
@@ -240,8 +241,8 @@
             </optgroup>
           </select>
           <br>
-          <label for="language">Choose your preferred language to code in:</label>
-          <input list="languages" name="language" id="language">
+          <label for="language" >Choose your preferred language to code in:</label>
+          <input list="languages" name="language" id="language" style="color: black;">
           <datalist id="languages">
             <option value="C++"></option>
             <option value="Java"></option>
@@ -252,11 +253,11 @@
             <option value="Other"></option>
           </datalist>
           <br>
-          <label for="Other_Intro">Anything Else you would like to Add:</label><br>
-          <textarea id="Other_Intro" name="Other_Intro" rows="4" cols="50"></textarea>
+          <label for="Other_Intro" >Anything Else you would like to Add:</label><br>
+          <textarea id="Other_Intro" name="Other_Intro" rows="4" cols="50" style="color: black;"></textarea>
           <br><br>
-          <input type="submit" value="Submit">
-          <input type="reset"><br>
+          <input type="submit" value="Submit" style="color: black;">
+          <input type="reset" style="color: black;"><br>
         </form>
     </main>
   </body>
