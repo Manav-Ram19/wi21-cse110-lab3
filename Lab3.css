@@ -77,12 +77,12 @@ h3+figure{
 p.head_of_list{
   font-size: 5vw;
 }
-
+@media only screen and (max-width: 400px) {
 pre {
   background-color: brown;
   margin: 10px 10px 10px 10px;
 }
-
+}
 .hidden_message {
   display:none;
 }
@@ -94,12 +94,6 @@ div.sticky {
   padding: 5px;
   background-color: #fc0;
   color: black;
-}
-
-@media only screen and (max-width: 400px) {
-  body {
-    background-color: rgb(42, 56, 61);
-  }
 }
 
 .grid-container {
