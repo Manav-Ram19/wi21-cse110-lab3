@@ -13,7 +13,8 @@
   border-radius: 30% 0%;
 }
 * {
-  background-color:hsl(277, 0%, 73%);
+  background-color:hsl(0, 100%, 0%);
+  color:white;
 }
 table {
   background-color: rgb(161, 96, 96);
