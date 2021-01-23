@@ -48,11 +48,23 @@ div h3{
   color: hsla(0,100%,25%,0.8);
   font-size: 3ch;
 }
-table>caption {
-  color: #faf;
+.flex-container {
+  display: flex;
+  background-color: rgb(252, 33, 252);
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.flex-container > div {
+  background-color: #6e42b4;
+  color: black;
 }
 h2~aside{
   text-decoration: double;
+  color: black;
+  min-width: 500px;
+  background-color: yellow;
 }
 h3+figure{
   margin: auto;
@@ -79,4 +91,27 @@ div.sticky {
   padding: 5px;
   background-color: #eeff00;
   color: black;
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: rgb(42, 56, 61);
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 80px 250px 300px;
+  grid-template-rows: 50px 150px;
+  align-content: center;
+  grid-gap: 5px;
+  background-color: orangered;
+  padding: 20px;
+}
+
+.grid-container > div {
+  background-color: orange;
+  text-align: left;
+  padding: 20px 5px;
+  font-size: 20px;
 }
