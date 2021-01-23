@@ -1,6 +1,7 @@
 /* First attempt at CSS */
 .aqua_text {
   color:#00ffff;
+  font-family: 'Oswald', sans-serif;
 }
 /* This multi-line comment
  spans over few lines
@@ -8,24 +9,39 @@
 #solid {
   border-style: double;
   border-width: 10px;
-  border-color: (34,139,34);
+  border-color: rgb(34,139,34);
   border-radius: 30% 0%;
 }
 * {
-  background-color:hsl(35, 18%, 57%);
+  background-color:hsl(277, 0%, 73%);
 }
-footer {
+table {
+  background-color: rgb(161, 96, 96);
+  margin-top:20px;
+  margin-left:20px;
+  margin-right:20px;
+  margin-bottom:20px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+  border: 10px solid rgb(190, 130, 16);
+  height:150px;
+  width:500px;
 }
+
 a[target="_test"] {
 }
 a:hover {
-  color: (255,192,203,1);
+  color: rgba(255,192,203,1);
 }
 a:active {
   color: darkcyan;
 }
 h1,h2 {
   color:aquamarine;
+  text-decoration: underline;
+  text-align: left;
 }
 div h3{
   color: hsla(0,100%,25%,0.8);
@@ -36,8 +52,16 @@ table>caption {
 }
 h2~aside{
 }
-nav+picture{
+h3+figure{
+  margin: auto;
+  padding: 10px;
+  border: 10px double rgb(208, 243, 11);
 }
 p.head_of_list{
   font-size: 5vw;
+}
+
+pre {
+  background-color: brown;
+  margin: 10px 10px 10px 10px;
 }
