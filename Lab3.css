@@ -65,3 +65,15 @@ pre {
   background-color: brown;
   margin: 10px 10px 10px 10px;
 }
+
+.hidden_message {
+  display:none;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #eeff00;
+}
