@@ -1,27 +1,43 @@
-.blue_text {
-  }
-
-#green_background {
+/* First attempt at CSS */
+.aqua_text {
+  color:#00ffff;
+}
+/* This multi-line comment
+ spans over few lines
+*/
+#solid {
+  border-style: double;
+  border-width: 10px;
+  border-color: (34,139,34);
+  border-radius: 30% 0%;
 }
 * {
+  background-color:hsl(35, 18%, 57%);
 }
 footer {
 }
 a[target="_test"] {
 }
 a:hover {
+  color: (255,192,203,1);
 }
 a:active {
+  color: darkcyan;
 }
 h1,h2 {
+  color:aquamarine;
 }
 div h3{
+  color: hsla(0,100%,25%,0.8);
+  font-size: 3ch;
 }
 table>caption {
+  color: #faf;
 }
 h2~aside{
 }
 nav+picture{
 }
 p.head_of_list{
+  font-size: 5vw;
 }
