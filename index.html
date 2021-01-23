@@ -8,9 +8,21 @@
     <link href="Lab3.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="textsheet">
+    <style>
+    div.fixed {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      width: 300px;
+      background-color: #acf871;
+    }
+  </style>
   </head>
   <body style="background-color:black;">
     <h1 style="font-size: 1.5cm;"> Manav's User Site </h1>
+    <div class="sticky">
+        For Code visit https://github.com/Manav-Ram19/wi21-cse110-lab3.
+    </div>
     <nav>
       <a href="https://www.linkedin.com/in/manav-ram-740a32194/" target = "_test">LinkedIn</a> | <a href="https://github.com/Manav-Ram19">GitHub</a>
     </nav>
@@ -23,7 +35,7 @@
     <main>
       <h2> Summary </h2>
       <p class="aqua_text">
-      I am a Sophomore studying at UCSD studying Computer Science. I love algorithms and data structures.<br> Recently I took a class on the theory of computation, that made me interested in Finite Automatas, Turing Machines, and the <span>P vs NP</span> question.
+      I am a Sophomore studying at UCSD studying Computer Science. I love algorithms and data structures.<br> Recently I took a class on the theory of computation, that made me interested in Finite Automatas, Turing Machines, and the <span style="display:block;">P vs NP</span> question.
       </p>
       <hr>
       <section>
@@ -69,7 +81,7 @@
             </video>
             <details>
               <summary> Evolution </summary>
-              <p> While the brains of the birds in the first generation are completely randomized 
+              <p style="max-width: 500px;"> While the brains of the birds in the first generation are completely randomized 
               (by brain I mean a set of numbers that make the bird decide whether to jump or not), the brains of each generation 
               after, is formed from the best two individuals of the previous generation, combined with some mutation, to allow 
               diversity and progress.<br> The <code>pop_size</code> shown in the first frame, is the number of birds in each generation.</p>
@@ -83,7 +95,7 @@
         <section>
           <h2> Projects in Progress </h2>
           <aside>
-            <p> <em>Before continuing these, I need to become comfortable with OpenGL.</em></p>
+            <p style="min-width: 500px;background-color: yellow;"> <em>Before continuing these, I need to become comfortable with OpenGL.</em></p>
           </aside>
           <ol>
             <li> <strong> Pomodoro Timer </strong>
@@ -129,6 +141,9 @@
           </ol>
         </section>
         <hr>
+        <div class="fixed">
+          Made by Manav Ram (mram@ucsd.edu).
+        </div>
         <div>
           <h2> Messing around with HTML Tags </h2>
           <pre> This text        is        in a      pre
@@ -155,15 +170,18 @@
           </svg>
           <br>
           <h3> A Secret Button </h3>
-          <button type="button" onclick="alert('Have a great day :)')">Don't Click Me!</button>
+          <button type="button" onclick="alert('Have a great day :)')" style="color:black;">Don't Click Me!</button>
           <br>
           <template>
             <p> This message is hidden, you probably will never see it </p>
           </template>
         </div>
+        <div class="hidden_message">
+          <p> This message is also hidden </p>
+        </div>
         <hr>
         <h2> Tell me who you are </h2>
-        <form>
+        <form style="color:#32cd32;">
         <fieldset>
           <legend>Personal Information</legend>
           <label for="fname"> First Name: </label><br>
