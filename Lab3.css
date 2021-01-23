@@ -59,12 +59,15 @@ div h3{
 .flex-container > div {
   background-color: #6e42b4;
   color: black;
+  width: 150px;
+  margin: 15px;
+  line-height: 75px;
 }
 h2~aside{
   text-decoration: double;
   color: black;
   min-width: 500px;
-  background-color: yellow;
+  background-color: rgb(38, 0, 255);
 }
 h3+figure{
   margin: auto;
@@ -102,7 +105,7 @@ div.sticky {
 .grid-container {
   display: grid;
   grid-template-columns: 80px 250px 300px;
-  grid-template-rows: 50px 150px;
+  grid-template-rows: 50px 100px 100px 100px 100px 100px;
   align-content: center;
   grid-gap: 5px;
   background-color: orangered;
