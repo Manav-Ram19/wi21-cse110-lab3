@@ -31,6 +31,7 @@ table {
 }
 
 a[target="_test"] {
+  color: blue;
 }
 a:hover {
   color: rgba(255,192,203,1);
@@ -51,6 +52,7 @@ table>caption {
   color: #faf;
 }
 h2~aside{
+  text-decoration: double;
 }
 h3+figure{
   margin: auto;
@@ -76,4 +78,5 @@ div.sticky {
   top: 0;
   padding: 5px;
   background-color: #eeff00;
+  color: black;
 }
